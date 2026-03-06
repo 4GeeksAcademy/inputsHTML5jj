@@ -1,0 +1,31 @@
+.recuadroexterior{  
+    margin: 50px;   
+   
+}
+.navbar{
+    background-color:rgb(223, 223, 223) ;
+    
+}
+.tarjeta-opcion {
+  background-color: #5d6770; /* Color gris oscuro de la imagen */
+  display: inline-flex;      /* Permite alinear elementos hijos en línea */
+  align-items: center;       /* Centra verticalmente el radio con el SVG */
+  padding: 10px 15px;
+  border-radius: 6px;
+  gap: 10px;                 /* Espacio entre el radio y el SVG */
+}
+
+.icono-svg {
+  width: 45px;               /* Ajusta el ancho para que parezca una tarjeta */
+  height: auto;
+  fill: white;               /* Si quieres que el icono sea blanco */
+  background: white;         /* Fondo blanco para que parezca una tarjeta física */
+  padding: 2px;
+  border-radius: 4px;
+}
+
+/* Evita que Bootstrap mueva el radio de su sitio */
+.form-check-input {
+  margin: 0;
+  cursor: pointer;
+}
